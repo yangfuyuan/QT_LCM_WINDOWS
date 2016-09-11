@@ -1,0 +1,10 @@
+struct waypoint_t
+{
+ 
+
+  int64_t utime;
+
+  pose_t waypoint; //站点位置
+  int32_t NO; //站点号
+ 
+}

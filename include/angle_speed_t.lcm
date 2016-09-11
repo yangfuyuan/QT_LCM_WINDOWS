@@ -1,0 +1,9 @@
+struct angle_speed_t
+{
+    int64_t utime;
+
+    
+    float x;	//[rad/s]绕x轴旋转速度
+    float y;	//[rad/s]绕y轴旋转速度
+    float z;	//[rad/s]绕z轴旋转速度
+}

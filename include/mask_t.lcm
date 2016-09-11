@@ -1,0 +1,13 @@
+struct mask_t
+{
+    int64_t utime;
+
+    double  x1;       // 左上角　x 位置坐标
+    double  y1;       // 左上角　y　轴位置坐标
+    double  x2;       // 右下角　x 位置坐标
+    double  y2;       // 右下角　y　轴位置坐标
+    int32_t NO; //区域编号
+    int32_t type;    //     区域类型（禁止进入，　用户定义（预留））　
+
+    const int32_t TYPE_NOENTER=0, TYPE_USERDEFINE=1;
+}

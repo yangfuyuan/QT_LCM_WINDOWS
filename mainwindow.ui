@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTextEdit" name="textEdit"/>
+    </item>
+    <item row="0" column="1">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QPushButton" name="RecBtn">
+        <property name="text">
+         <string>接收数据</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="clearBtn">
+        <property name="text">
+         <string>清除接收区数据</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="publishBtn">
+        <property name="text">
+         <string>发布数据</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>发布数据间隔</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBoxTime"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="stopBtn">
+        <property name="text">
+         <string>停止发布</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

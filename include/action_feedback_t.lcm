@@ -1,0 +1,12 @@
+struct action_feedback_t
+{
+    int64_t utime;      
+    
+   const int32_t REACHED = 0,  UNREACHED= 1,
+   WAITING  = 2, NO_WAY = 3, NO_PATH = 4, ERROR = 5;
+
+   int32_t status;  //０-目标达到 １－目标不能到达，　２－正在等待到达目标，　３－没有站点，　４－没有路径，　５－已经在障碍物区
+
+
+   
+}

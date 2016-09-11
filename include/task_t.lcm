@@ -1,0 +1,7 @@
+struct task_t
+{
+	int64_t utime;
+	int32_t wayppoint_NO;//站点号
+	int32_t path_NO; //路径号
+	int8_t robot_NO;//机器人编号
+}

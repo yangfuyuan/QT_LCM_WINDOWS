@@ -1,0 +1,7 @@
+struct joy_t
+{
+    int64_t utime;
+
+    // True/1 means on.
+    boolean enabled;
+}

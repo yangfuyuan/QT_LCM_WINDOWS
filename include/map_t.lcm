@@ -1,0 +1,9 @@
+struct map_t
+{
+	int64_t utime;
+	int64_t len;
+	int8_t data[len];
+	double  resolution;	// 分辨率
+	double  offsetx;	// x　坐标偏移
+	double  offsety;	// y　坐标偏移
+}

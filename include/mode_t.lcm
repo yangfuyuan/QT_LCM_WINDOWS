@@ -1,0 +1,8 @@
+struct mode_t
+{
+	int64_t utime;
+	int8_t robot_NO;//机器人编号
+	int8_t mode;    //  机器人模式（０－导航模式（默认），　１－建图模式）
+	int8_t strategy; //机器人策略（０－避障策略，　１－等待策略）
+	const int8_t MODE_NAVIGATION=0, MODE_MAPPING=1,STRATEGY_REPLAN=0,STRATEGY_WAITING=1;
+}

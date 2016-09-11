@@ -1,0 +1,8 @@
+struct cmd_vel_t
+{
+    int64_t utime;
+
+    // Between -2.0 and 2.0
+    linear_speed_t linear_speed;//机器人线速度
+    angle_speed_t angle_speed;//[rad/s]　机器人角速度
+}

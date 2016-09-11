@@ -1,0 +1,7 @@
+struct pose_xyt_t
+{
+    int64_t utime;
+
+    pose_t pose;     // 位置x, y, theta
+    double  Sigma[9];   // 3x3 协方差矩阵
+}

@@ -1,0 +1,7 @@
+struct speech_t
+{
+    int64_t utime;
+
+    string  data;//语音要说的内容
+    int32_t level;	//优先级（０是最高级）
+}

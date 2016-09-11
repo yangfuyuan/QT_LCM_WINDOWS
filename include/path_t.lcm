@@ -1,0 +1,11 @@
+struct path_t
+{
+ 
+
+  int64_t utime;
+
+
+  int32_t size;
+  pose_t pose[size]; //路径位置
+ 
+}

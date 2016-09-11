@@ -1,0 +1,6 @@
+struct waypoint_list_t
+{
+  int64_t utime;
+  int32_t number;//站点数
+  waypoint_t waypoint[number];
+}

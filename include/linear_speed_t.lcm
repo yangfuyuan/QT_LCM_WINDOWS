@@ -1,0 +1,9 @@
+struct linear_speed_t
+{
+    int64_t utime;
+
+	// Between -2.0 and 2.0
+	float x;	//[m/s]x轴方向速度
+	float y;	//[m/s]y轴方向速度
+	float z; 	//[m/s]z轴方向速度
+}

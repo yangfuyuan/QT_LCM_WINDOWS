@@ -1,0 +1,11 @@
+struct odom_t
+{
+    int64_t utime;
+
+    // Between -2.0 and 2.0
+    int8_t  robot_NO; //机器人编号
+    cmd_vel_t cmd_vel; //反馈速度
+    
+    pose_xyt_t pose_xyt; //机器人位置
+
+}
